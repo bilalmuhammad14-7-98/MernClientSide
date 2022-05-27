@@ -4,7 +4,11 @@ import useStyles from "./styles";
 const Post = () => {
   const classes = useStyles();
 
-  return <h1>Sinle Post Component</h1>;
+  return (
+    <div>
+      <h1>Post</h1>
+    </div>
+  );
 };
 
 export default Post;
